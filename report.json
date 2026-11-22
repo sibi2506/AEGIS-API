@@ -1,0 +1,35 @@
+{
+    "tool": "AegisAPI",
+    "scan_time_utc": "2026-10-28T15:20:02.090459+00:00",
+    "target": "http://127.0.0.1:5000",
+    "http_status": 200,
+    "headers_checked": 5,
+    "findings_count": 5,
+    "findings": [
+        {
+            "header": "Content-Security-Policy",
+            "severity": "LOW",
+            "description": "Helps control which resources a browser can load."
+        },
+        {
+            "header": "X-Content-Type-Options",
+            "severity": "LOW",
+            "description": "Helps prevent MIME-type sniffing."
+        },
+        {
+            "header": "X-Frame-Options",
+            "severity": "LOW",
+            "description": "Helps control whether a page can be embedded in frames."
+        },
+        {
+            "header": "Strict-Transport-Security",
+            "severity": "INFO",
+            "description": "Helps browsers use HTTPS for future connections."
+        },
+        {
+            "header": "Referrer-Policy",
+            "severity": "LOW",
+            "description": "Controls how much referrer information browsers send."
+        }
+    ]
+}
